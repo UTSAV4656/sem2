@@ -1,0 +1,36 @@
+.h{
+	background-color: aqua; 
+	padding: 10px;
+}
+.Header{
+	 background-color: purple;
+	 color: white
+}
+.t1{
+	background-color:yellow; 
+	height: 250px; 
+	padding: 5px;
+}
+.t2{
+	width:60%;
+	float: left;
+}
+.Entry1{
+	background-color: black;
+	color: white;
+	margin: 15px;
+	padding: 5px;
+}
+.sidebar{
+	background-color: black;
+	color: white;
+	height: 105px; 
+	margin: 15px;
+	padding: 5px;
+	float: right; 
+	width: 30%
+}
+.DU{
+	background-color: blue;
+	color: white;
+}
