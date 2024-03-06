@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .back {
+            width: 90%;
+            height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg,white,pink,rgb(151, 238, 231),white,pink);
+        }
+
+        .left {
+            width: 42%;
+            height: 85%;
+
+            float: left;
+            background-color: rgb(255, 231, 253);
+            border-right: 0px;
+        }
+
+        .image1{
+            width: 100%;
+            height: 70vh;
+        }
+        .image1 img,.image2 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .image2 {
+            width: 17%;
+            height: 17%;
+        }
+
+        .right {
+            width: 40%;
+            height: 85%;
+            background-color: white;
+            float: right;
+            padding: 0% 0% 0% 2%;
+            border-left: 0px;
+
+        }
+
+        #sp1 {
+            color: darkblue;
+            font-size: 19px;
+        }
+
+        #i2 {
+            width: 15%;
+            margin-left: 1%;
+        }
+
+        #sp2 {
+            font-size: 13px;
+        }
+
+        button {
+            border: 1px solid rgb(228, 228, 228);
+        }
+
+        .b1 {
+            width: 30%;
+            height: 3vh;
+            background-color: white;
+            align-content: center;
+        }
+
+
+        .b2,
+        .b3 {
+            width: 20%;
+            height: 3vh;
+            border-radius: 20px;
+            margin-left: 10px;
+            background-color: white;
+        }
+
+        .color {
+            float: left;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            margin-left: 4%;
+        }
+
+        #c1 { background-color: cyan; margin-left: 0px; }
+        #c2 { background-color: darkblue; }
+        #c3 { background-color: gray; }
+        #c4 { background-color: whitesmoke; }
+
+        .b4 {
+            width: 30%;
+            height: 4vh;
+            background-color: white;
+            border: 0px;
+            border-bottom: 1px solid grey;
+        }
+
+        .content h6 {
+            margin-left: 4%;
+            font-size: 13px;
+        }
+
+        .r1 {
+            margin-left: 4%;
+            margin-top: 2%;
+            width: 85%;
+            height: 10vh;
+            padding: 1%;
+            z-index: 1;
+        }
+        .r1 img{
+            float: left;
+            width: 60px;
+            height: 60px;
+        }
+        .r1 p{
+            width: 80%;
+            margin-left: 3%;
+            float: left;
+        }
+
+
+        .center {
+            position: absolute;
+            top: 81%;
+            left: 20%;
+            border: 1.5px solid gray;
+            width: 65%;
+            height: 11vh;
+            background-color: whitesmoke;
+            z-index: 10;
+        }
+        .center img {
+            width: 4.5vw;
+            height: 8vh;
+            float: left;
+            position: relative;
+            top: 8%;
+            left: 2%;
+        }
+
+        .center h4 {
+            float: left;
+            position: relative;
+            top: 0%;
+            left: 5%;
+            border: 1% solid black;
+        }
+
+        .center #dis {
+            float: left;
+            position: relative;
+            top: 47%;
+            left: -7%;
+            opacity: 35%; 
+            font-size: 15px; 
+        }
+
+        .center h5 {
+            position: relative;
+            top: 2%;
+            left: 5%;
+        }
+
+        .plus {
+            width: 4%;
+            height: 40%;
+            /* padding: 0.5%; */
+            text-align: center;
+            position: relative;
+            top: -15%;
+            left: 50%;
+            border: 1px solid gray;
+        }
+
+        #J {
+            position: absolute;
+            top: 30%;
+            left: 67%;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+
+        .center button {
+            width: 20%;
+            height: 5vh;
+            background-color: blue;
+            color: white;
+            font-size: 17px;
+            position: absolute;
+            top: 25%;
+            left: 75%;
+        }
+    </style>
+</head>
+<body>
+   
+        <div class="back">
+            <div class="left">
+                <div class="image1"><img src="." alt="" srcset=""></div>
+                <div class="image2"><img src="./lab14bimg.jpg" alt=""></div>
+            </div>
+            <div class="right">
+                <br>
+                <span id="sp1"> ← Back to bedroom</span>
+                <br>
+    
+                    <p style="opacity: 100%; font-size: 15px;">BEDROOM</p>
+    
+                    <h2>College Essentials</h2>
+    
+                    <img src="https://th.bing.com/th/id/OIP.kUOlQe4aCmA32PnN80zGFwHaCJ?w=331&amp;h=101&amp;c=7&amp;r=0&amp;o=5&amp;pid=1.7" id="i2">
+                    <span id="sp2">4.4 (328 reviews)</span>
+                    <br>
+    
+                    <h5>Select Quality</h5>
+                    <button class="b1">Basic</button><button class="b1">Premium</button>
+                    <br>
+                    <h5>Style</h5>
+                    <button class="b2"> Minimal </button>
+                    <button class="b2"> Bohemian </button>
+                    <button class="b2"> Floral </button>
+                    <button class="b2"> Other </button>
+                    <br>
+                    <h5>Color</h5>
+                    <span id="c1" class="color"></span>
+                    <span id="c2" class="color"></span>
+                    <span id="c3" class="color"></span>
+                    <span id="c4" class="color"></span>
+    
+                    <br>
+                    <h5>Size</h5> 
+                    <button class="b3"> Twin XL </button>
+                    <button class="b3"> Full </button>
+                    <br><br>
+                    <button class="b4" style="margin-left: 10px; border-bottom: 1px solid blue;">What's inside</button>
+                    <button class="b4">Reviews</button>
+                    <button class="b4">FAQs</button>
+                    <br>
+                    <h6>Customizable Items</h6>
+    
+                    <div class="r1">
+                        <img src="./images/Lab14.PNG">
+                        <p>
+                            <b>Blush Plush Comforter</b> <br> <br>
+                            See product details
+                        </p>
+                    </div>
+            </div>
+            <div class="center">
+                <img src="./images/Lab14.PNG">
+    
+                <h4>College Essentials</h4>
+                <p id="dis">Everything you need for freshman year.</p>
+    
+                <h5>Add Ons</h5>
+                <div class="plus">
+                    +
+                </div>
+                <span id="J">$195</span>
+                <button>Add to cart(2)</button>
+    
+            </div>
+        </div>
+    
+
+</body>
+</html>
