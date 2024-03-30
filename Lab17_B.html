@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PART - B</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-2 text-light text-center p-3" style="background-color: #212d3b;"><b>Open</b> Admin</div>
+            <div class="col-5 p-3"><i class="bi bi-list"></i></div>
+            <div class="col-5 p-3 text-end"><i class="bi bi-person-circle"></i>&nbsp;&nbsp;Administrator</div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-2 p-3 text-light" style="background-color: #253544;">
+
+                <div class="row pt-2">
+                    <div class="col-1"></div>
+                    <a href="#"><div class="col-10 rounded-pill text-end" style="background-color: #212d3b;"><i class="bi bi-search text-light"></i></div></a>
+                    <div class="col-1"></div>
+                </div>
+
+                <div class="btn-group-vertical pt-3 text-start w-100" role="group" aria-label="vertical button group">
+
+                    <div><button type="button" class="btn text-white"><i class="bi bi-graph-up"></i>&nbsp;&nbsp;Dashboard</button></div>
+                    <div><button type="button" class="btn text-white" style="background-color: #212d3b;"><i class="bi bi-file-earmark-fill"></i>&nbsp;&nbsp;Pages</button></div>
+                    <div class="dropend" role="group">
+                        <button type="button" class="btn dropdown-toggle text-white" data-bs-toggle="dropdown">
+                            <i class="bi bi-hdd-stack-fill"></i>&nbsp;&nbsp;Admin
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropend" role="group">
+                        <button type="button" class="btn dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-gear-fill"></i>&nbsp;&nbsp;Helpers
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                          <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        </ul>
+                    </div>
+                    <div><button type="button" class="btn text-white"><i class="bi bi-file-earmark-fill"></i>&nbsp;&nbsp;Media Manager</button></div>
+                    <div><button type="button" class="btn text-white"><i class="bi bi-toggle-on"></i>&nbsp;&nbsp;Config</button></div>
+                    <div><button type="button" class="btn text-white"><i class="bi bi-sliders2"></i>&nbsp;&nbsp;API Tester</button></div>
+                    <div><button type="button" class="btn text-white"><i class="bi bi-bounding-box"></i>&nbsp;&nbsp;Page Designer</button></div>
+                </div>
+            </div>
+
+            <div class="col-10" style="background-color: #eceff4;">
+
+                <div class="row pb-3 pt-3">
+
+                    <div class="col"><b class="fs-4">Page</b>&nbsp;List</div>
+                    <div class="col text-end"><i class="bi bi-house-door"></i>&nbsp;&nbsp;Home / Pages</div>
+                </div>
+
+                <div class="row">
+
+                    <div class="container bg-light">
+
+                        <div class="row p-2">
+
+                            <div class="col text-start">
+
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-success me-1 rounded btn-sm">+ New</button>
+                                    <button type="button" class="btn btn-primary me-1 rounded btn-sm">2 Items Selected&nbsp;&nbsp;<i class="bi bi-caret-down-fill"></i></button>
+                                    <button type="button" class="btn btn-primary me-1 rounded btn-sm"><i class="bi bi-funnel-fill"></i>&nbsp;&nbsp;Filter&nbsp;&nbsp;<i class="bi bi-caret-down-fill"></i></button>
+                                    <button type="button" class="btn btn-danger me-1 rounded btn-sm"><i class="bi bi-info-circle-fill"></i>&nbsp;&nbsp;Report</button>
+                                </div>
+                            </div>
+
+                            <div class="col text-end">
+
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-primary me-1 rounded btn-sm"><i class="bi bi-download"></i>&nbsp;&nbsp;Export&nbsp;&nbsp;<i class="bi bi-caret-down-fill"></i></button>
+                                    <button type="button" class="btn btn-primary me-1 rounded btn-sm"><i class="bi bi-grid-1x2-fill"></i>&nbsp;&nbsp;<i class="bi bi-caret-down-fill"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+
+                            <div class="col">
+
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col"><input type="checkbox"></th>
+                                        <th scope="col">ID<span style="color: blue;"><i class="bi bi-caret-down-fill"></i><i class="bi bi-caret-up-fill"></i></span></th>
+                                        <th scope="col">Title</th>
+                                        <th scope="col">Date<i class="bi bi-funnel-fill" style="color: blue;"><i class="bi bi-caret-down-fill"></i></i></th>
+                                        <th scope="col">Tags</th>
+                                        <th scope="col">Star</th>
+                                        <th scope="col">Created At</th>
+                                        <th scope="col">Updated At</th>
+                                        <th scope="col" class="text-center">Action</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                      <tr>
+                                        <th scope="row"><input type="checkbox"></th>
+                                        <td>1</td>
+                                        <td>Homepage</td>
+                                        <td></td>
+                                        <td><i class="bi bi-check2 text-white me-2" style="background-color: rgba(0, 0, 0, 0.714);"></i><span class="badge text-bg-success me-1">New</span><span class="badge text-bg-success">Special</span></td>
+                                        <td><i class="bi bi-star-fill" style="color: rgba(0, 0, 255, 0.393);"></i></td>
+                                        <td>2022-02-17  00:51:01</td>
+                                        <td>2022-06-25  14:30:21</td>
+                                        <td><i class="bi bi-pencil-fill m-2"></i><i class="bi bi-eye-fill m-2"></i><i class="bi bi-trash3-fill m-2"></i><i class="bi bi-envelope m-2"></i></td>
+                                      </tr>
+                                      <tr class="table-warning">
+                                        <th scope="row"><input type="checkbox" checked></th>
+                                        <td>2</td>
+                                        <td>Blog</td>
+                                        <td><u>2022-06-25</u></td>
+                                        <td><i class="bi bi-check2 text-white me-2" style="background-color: rgba(0, 0, 0, 0.714);"></i><span class="badge text-bg-success">New</span></td>
+                                        <td><i class="bi bi-star-fill" style="color: rgba(0, 0, 255, 0.393);"></i></td>
+                                        <td>2022-06-25  14:30:33</td>
+                                        <td>2022-06-25  14:30:33</td>
+                                        <td class="table-light"><i class="bi bi-pencil-fill m-2"></i><i class="bi bi-eye-fill m-2"></i><i class="bi bi-trash3-fill m-2"></i><i class="bi bi-envelope m-2"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox"></th>
+                                        <td>3</td>
+                                        <td>About Us</td>
+                                        <td><u>2022-06-25</u></td>
+                                        <td><i class="bi bi-check2 text-white me-2" style="background-color: rgba(0, 0, 0, 0.714);"></i></td>
+                                        <td><i class="bi bi-star-fill" style="color: blue"></i></td>
+                                        <td>2022-06-25  14:36:58</td>
+                                        <td>2022-06-25  14:37:40</td>
+                                        <td><i class="bi bi-pencil-fill m-2"></i><i class="bi bi-eye-fill m-2"></i><i class="bi bi-trash3-fill m-2"></i><i class="bi bi-envelope m-2"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox"></th>
+                                        <td>4</td>
+                                        <td>Contact</td>
+                                        <td><u>2022-06-25</u></td>
+                                        <td><i class="bi bi-check2 text-white me-2" style="background-color: rgba(0, 0, 0, 0.714);"></i><span class="badge text-bg-success me-1">Code</span><span class="badge text-bg-success">Special</span></td>
+                                        <td><i class="bi bi-star-fill" style="color: blue"></i></td>
+                                        <td>2022-06-25  14:37:12</td>
+                                        <td>2022-06-25  14:39:16</td>
+                                        <td><i class="bi bi-pencil-fill m-2"></i><i class="bi bi-eye-fill m-2"></i><i class="bi bi-trash3-fill m-2"></i><i class="bi bi-envelope m-2"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><input type="checkbox"></th>
+                                        <td>5</td>
+                                        <td>Cases</td>
+                                        <td></td>
+                                        <td><i class="bi bi-check2 text-white me-2" style="background-color: rgba(0, 0, 0, 0.714);"></i></td>
+                                        <td><i class="bi bi-star-fill" style="color: rgba(0, 0, 255, 0.393)"></i></td>
+                                        <td>2022-06-25  14:37:12</td>
+                                        <td>2022-06-25  14:37:36</td>
+                                        <td><i class="bi bi-pencil-fill m-2"></i><i class="bi bi-eye-fill m-2"></i><i class="bi bi-trash3-fill m-2"></i><i class="bi bi-envelope m-2"></i></td>
+                                      </tr>
+                                      <tr class="table-warning">
+                                        <th scope="row"><input type="checkbox" checked></th>
+                                        <td>6</td>
+                                        <td>Clients</td>
+                                        <td><u>2022-06-25</u></td>
+                                        <td><i class="bi bi-check2 text-white me-2" style="background-color: rgba(0, 0, 0, 0.714);"></i><span class="badge text-bg-success">Special</span></td>
+                                        <td><i class="bi bi-star-fill" style="color: rgba(0, 0, 255, 0.393)"></i></td>
+                                        <td>2022-06-25  14:37:28</td>
+                                        <td>2022-06-25  14:37:28</td>
+                                        <td class="table-light"><i class="bi bi-pencil-fill m-2"></i><i class="bi bi-eye-fill m-2"></i><i class="bi bi-trash3-fill m-2"></i><i class="bi bi-envelope m-2"></i></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row p-5"></div>
+
+                <div class="row bg-light p-3">
+
+                    <div class="col">Showing <b>1</b> to <b>6</b> of <b>6</b> Entries</div>
+                    <div class="col text-end">
+                        
+                        Show <select style="width: 70px;" class="text-center"><option>20</option></select>&nbsp;&nbsp; entries &nbsp;&nbsp;&nbsp;<button style="border: 0px;">&laquo;</button><button class="bg-info text-white" style="border: 0px;">1</button><button style="border: 0px;">&raquo;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
